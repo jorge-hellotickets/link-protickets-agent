@@ -133,4 +133,14 @@ Extracted 2026-07. See Protickets `docs/link-agent/README.md` "Cutover Status" f
 
 ---
 
-**Repo created at:** https://github.com/jorge-hellotickets/link-protickets-agent (transfer to `fintmedia/link-protickets-agent` org when permissions allow; package scope remains `@fintmedia/...`).
+**Target repository:** `fintmedia/link-protickets-agent`
+
+The git remote in this checkout is already set to `https://github.com/fintmedia/link-protickets-agent.git`.
+
+**Creation status:** The `fintmedia` organization was not accessible for automated creation via the GitHub CLI at the time (no `admin:org` scope or org not yet granting repo creation to the token).
+
+**To complete:**
+1. Go to GitHub → create a new repository under the **fintmedia** organization named exactly `link-protickets-agent` (public).
+2. Then run `git push -u origin main` from this directory.
+
+All code, history, package name (`@fintmedia/link-protickets-agent`), and documentation are ready.
