@@ -137,10 +137,20 @@ Extracted 2026-07. See Protickets `docs/link-agent/README.md` "Cutover Status" f
 
 The git remote in this checkout is already set to `https://github.com/fintmedia/link-protickets-agent.git`.
 
-**Creation status:** The `fintmedia` organization was not accessible for automated creation via the GitHub CLI at the time (no `admin:org` scope or org not yet granting repo creation to the token).
+**Current status (as of 2026-07-13):**
+- All code, prompts, history and package configuration are ready.
+- GitHub CLI cannot create the repo under `fintmedia` because the organization either does not exist yet or the token lacks `admin:org` permissions.
 
-**To complete:**
-1. Go to GitHub → create a new repository under the **fintmedia** organization named exactly `link-protickets-agent` (public).
-2. Then run `git push -u origin main` from this directory.
+### Pasos para terminar (hazlo manualmente en GitHub):
 
-All code, history, package name (`@fintmedia/link-protickets-agent`), and documentation are ready.
+1. Ve a https://github.com/organizations/new y crea la organización llamada **`fintmedia`** (si todavía no existe).
+2. Dentro de la organización `fintmedia`, crea un nuevo repositorio:
+   - Nombre: **`link-protickets-agent`**
+   - Visibilidad: **Public**
+3. Una vez creado el repo, ejecuta desde este directorio:
+
+```bash
+git push -u origin main
+```
+
+Todo lo demás (package `@fintmedia/link-protickets-agent`, estructura, prompts, etc.) ya está preparado correctamente.
