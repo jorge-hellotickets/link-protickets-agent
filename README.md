@@ -133,24 +133,25 @@ Extracted 2026-07. See Protickets `docs/link-agent/README.md` "Cutover Status" f
 
 ---
 
-**Target repository:** `fintmedia/link-protickets-agent`
+**Current repository:** https://github.com/jorge-hellotickets/link-protickets-agent
 
-The git remote in this checkout is already set to `https://github.com/fintmedia/link-protickets-agent.git`.
+**Target (after transfer):** `fintmedia/link-protickets-agent`
 
-**Current status (as of 2026-07-13):**
-- All code, prompts, history and package configuration are ready.
-- GitHub CLI cannot create the repo under `fintmedia` because the organization either does not exist yet or the token lacks `admin:org` permissions.
+The code has been pushed. The GitHub CLI could not create the repository directly under the `fintmedia` organization because that organization does not exist (or the authenticated account does not have permission to create repositories in it).
 
-### Pasos para terminar (hazlo manualmente en GitHub):
+### Cómo moverlo a la organización fintmedia:
 
-1. Ve a https://github.com/organizations/new y crea la organización llamada **`fintmedia`** (si todavía no existe).
-2. Dentro de la organización `fintmedia`, crea un nuevo repositorio:
-   - Nombre: **`link-protickets-agent`**
-   - Visibilidad: **Public**
-3. Una vez creado el repo, ejecuta desde este directorio:
+1. Crea la organización (si no existe):
+   - Ve a https://github.com/organizations/new
+   - Nombre: `fintmedia`
 
-```bash
-git push -u origin main
-```
+2. Transfiere el repositorio a la org:
+   - Ve al repo actual: https://github.com/jorge-hellotickets/link-protickets-agent
+   - Settings → (abajo) "Transfer ownership"
+   - Selecciona la organización `fintmedia`
+   - Confirma la transferencia
 
-Todo lo demás (package `@fintmedia/link-protickets-agent`, estructura, prompts, etc.) ya está preparado correctamente.
+Después de la transferencia, el repo vivirá en:
+**https://github.com/fintmedia/link-protickets-agent**
+
+El paquete sigue siendo `@fintmedia/link-protickets-agent`.
