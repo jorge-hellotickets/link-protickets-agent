@@ -130,3 +130,7 @@ Internal — Fint Media.
 ## Status
 
 Extracted 2026-07. See Protickets `docs/link-agent/README.md` "Cutover Status" for the live state of mirroring, disabled crons, and admin surfaces.
+
+---
+
+**Repo created at:** https://github.com/jorge-hellotickets/link-protickets-agent (transfer to `fintmedia/link-protickets-agent` org when permissions allow; package scope remains `@fintmedia/...`).
