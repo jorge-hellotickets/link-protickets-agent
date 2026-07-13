@@ -1,0 +1,1 @@
+{"version":3,"file":"mail-channel-stub.js","sourceRoot":"","sources":["../../src/core/mail-channel-stub.ts"],"names":[],"mappings":"AAAA;;;;GAIG;AACH,MAAM,CAAC,KAAK,UAAU,cAAc,CAAC,KAAU;IAC7C,qEAAqE;AACvE,CAAC;AAED,MAAM,CAAC,KAAK,UAAU,kBAAkB,CAAC,OAAY,EAAE,OAAe,EAAE,WAAmB;IACzF,OAAO,EAAE,CAAC;AACZ,CAAC"}

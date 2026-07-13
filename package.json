@@ -1,0 +1,48 @@
+{
+  "name": "@fintmedia/link-protickets-agent",
+  "version": "0.1.0",
+  "description": "Link-protickets agent definition and logic for autonomous link-building outreach and negotiation. Standalone package for use with @fintmedia/agent-core (or compatible host).",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./prompts/*": "./dist/prompts/*"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "clean": "rm -rf dist",
+    "prepublishOnly": "pnpm run build"
+  },
+  "peerDependencies": {
+    "@fintmedia/agent-core": ">=0.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "^5.6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fintmedia/link-protickets-agent.git"
+  },
+  "keywords": [
+    "link-building",
+    "agent",
+    "outreach",
+    "negotiation",
+    "fintmedia"
+  ],
+  "author": "Fint Media",
+  "license": "UNLICENSED",
+  "publishConfig": {
+    "access": "public"
+  }
+}

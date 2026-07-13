@@ -1,0 +1,1 @@
+{"version":3,"file":"rejection-guardrail.d.ts","sourceRoot":"","sources":["../../src/lib/rejection-guardrail.ts"],"names":[],"mappings":"AAAA;;;;;;;;;;;;;GAaG;AAuCH,MAAM,WAAW,eAAe;IAC9B,QAAQ,EAAE,OAAO,CAAC;IAClB,qDAAqD;IACrD,cAAc,CAAC,EAAE,MAAM,CAAC;IACxB,2DAA2D;IAC3D,cAAc,CAAC,EAAE,MAAM,CAAC;CACzB;AAED;;;GAGG;AACH,wBAAgB,eAAe,CAAC,YAAY,EAAE,MAAM,GAAG,eAAe,CAwBrE"}
